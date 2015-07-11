@@ -1,1 +1,0 @@
-SupportKit = Npm.require('supportkit');
