@@ -21,7 +21,7 @@ Package.onUse(function(api)
 
 Package.onTest(function(api)
 {
-  api.use('tinytest', 'didstopia:supportkit');
+  api.use(['tinytest', 'didstopia:supportkit']);
   api.addFiles('supportkit-tests.js', 'client');
   api.export('SupporKit', 'client');
 });
