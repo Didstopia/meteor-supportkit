@@ -1,1 +1,1 @@
-SupportKit = Npm.require('supportkit-js');
+SupportKit = Npm.require('supportkit');
