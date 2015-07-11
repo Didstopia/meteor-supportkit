@@ -1,1 +1,1 @@
-SupportKit = Npm.require('supportkit');
+MeteorSupportKit = Npm.require('supportkit');

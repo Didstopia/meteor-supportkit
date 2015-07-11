@@ -2,7 +2,7 @@ Package.describe(
 {
   name: 'didstopia:supportkit',
   summary: 'Provides easy access to SupportKit.',
-  version: '0.0.5',
+  version: '0.0.6',
   git: 'https://github.com/Didstopia/meteor-supportkit.git',
   documentation: 'README.md',
   packages:
@@ -22,7 +22,7 @@ Package.onUse(function(api)
 
   api.addFiles('meteor-supportkit.js', 'client');
 
-  api.export('SupportKit', 'client');
+  api.export('MeteorSupportKit', 'client');
 });
 
 Package.onTest(function(api)
@@ -32,5 +32,5 @@ Package.onTest(function(api)
   api.addFiles('meteor-supportkit.js', 'client');
   api.addFiles('meteor-supportkit-tests.js', 'client');
 
-  api.export('SupporKit', 'client');
+  api.export('MeteorSupportKit', 'client');
 });
