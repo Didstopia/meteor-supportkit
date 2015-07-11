@@ -2,7 +2,7 @@ Package.describe(
 {
   name: 'didstopia:supportkit',
   summary: 'Provides easy access to SupportKit.',
-  version: '0.0.2',
+  version: '0.0.3',
   git: 'https://github.com/Didstopia/meteor-supportkit.git',
   documentation: 'README.md'
 });
